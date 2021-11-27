@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on css selectors</title>
+    <style>
+      h1{
+          background-color: red;
+          color: salmon;
+          font-weight: bold;
+          text-align: center;
+      }
+      div li p{
+          color: silver;
+          font-weight: bold;
+          background-color: green;
+      }
+      div + p{
+          color: green;
+          background-color: red;
+      }
+    </style>
+</head>
+<body>
+    <h1>This is more selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is another para within li</p></li>
+            </ul>
+            <ul>
+                <li><p>This is paragraph</p></li>
+            </ul>
+            <ul>
+                <li><p>This is another paragraph</p></li>
+            </ul>
+            <ul>
+                <li> <p>This is outermost paragraph</p></li>
+            </ul>
+           
+        </div>
+    </div>
+</body>
+</html>
